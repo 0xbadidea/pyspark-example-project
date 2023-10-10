@@ -6,15 +6,16 @@ This module contains unit tests for the transformation steps of the ETL
 job defined in etl_job.py. It makes use of a local version of PySpark
 that is bundled with the PySpark package.
 """
-import unittest
 
+# To run the tests first execute export PYTHONPATH="/workspaces/pyspark-example-project:$PYTHONPATH" 
+# in the terminal.
+
+import unittest
 import json
 
 from pyspark.sql.functions import mean
-
 from dependencies.spark import start_spark
 from jobs.etl_job import transform_data
-
 
 class SparkETLTests(unittest.TestCase):
     """Test suite for transformation in etl_job.py

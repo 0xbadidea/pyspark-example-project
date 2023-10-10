@@ -26,6 +26,9 @@ to be executed by a driver process on the Spark master node.
 For more details on submitting Spark applications, please see here:
 http://spark.apache.org/docs/latest/submitting-applications.html
 
+TA: 1. https://spark.apache.org/docs/latest/api/python/user_guide/python_packaging.html
+    2. https://stackoverflow.com/questions/35762459/add-jar-to-standalone-pyspark
+
 Our chosen approach for structuring jobs is to separate the individual
 'units' of ETL - the Extract, Transform and Load parts - into dedicated
 functions, such that the key Transform steps can be covered by tests
