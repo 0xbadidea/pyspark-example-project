@@ -1,9 +1,11 @@
 """ Read a CSV file."""
 
-import pyspark
+from pyspark.storagelevel import StorageLevel
+from pyspark.sql.types import StructType, StringType
+from pyspark.sql.functions import expr
 
 
-class ReadCSV:
+class ReadCSV: # pylint: disable=too-many-instance-attributes
 
     """Provides the read_csv method to read a CSV file."""
 
@@ -51,18 +53,14 @@ class ReadCSV:
         # otherwise, we infer the schema and parse the data.
         if self.schema:
             if corrupt_record is None:
-                if isinstance(self.schema, pyspark.sql.types.StructType):
-                    self.schema = self.schema.add(
-                        "_corrupt_record", pyspark.sql.types.StringType()
-                    )
+                if isinstance(self.schema, StructType):
+                    self.schema = self.schema.add("_corrupt_record", StringType())
                 else:
                     if not "_corrupt_record" in self.schema:
                         self.schema += ",_corrupt_record string"
 
             df_reader = df_reader.schema(self.schema)
-            df_csv = df_reader.load(self.path).persist(
-                pyspark.StorageLevel.MEMORY_AND_DISK
-            )
+            df_csv = df_reader.load(self.path).persist(StorageLevel.MEMORY_AND_DISK)
             df_valid = df_csv.where(df_csv["_corrupt_record"].isNull())
             df_invalid = df_csv.where(df_csv["_corrupt_record"].isNotNull())
 
@@ -75,31 +73,30 @@ class ReadCSV:
         return df_valid, df_invalid
 
     def read_csv_with_pii(self):
-        """Read a csv file with PII columns, encrypted with a key. 
-           The algorithm depends on the length of the key:
-                16: AES-128
-                24: AES-192
-                32: AES-256
-           Ref: [1]: https://learn.microsoft.com/en-gb/azure/databricks/sql/language-manual/functions/aes_decrypt
-        """ # pylint: disable=line-too-long
+        """Read a csv file with PII columns, previously encrypted using the
+        AES-GCM algorithm. The algorithm depends on the length of the key:
+             16: AES-128
+             24: AES-192
+             32: AES-256
+        Ref: [1]: https://learn.microsoft.com/en-gb/azure/databricks/sql/language-manual/functions/aes_decrypt
+        """  # pylint: disable=line-too-long
+
+        # TODO: Deal with schema conversions. Encrypted columns are assumed
+        # to be of string type, however the schema of these columns could have these
+        # columns as a different type.
 
         df_valid, df_invalid = self.read_csv()
 
         for column in self.pii_columns:
             df_valid = df_valid.withColumn(
                 column,
-                pyspark.sql.functions.expr(
-                    f"aes_decrypt(unbase64({column}), {self.decryption_key}, 'GCM')"
-                ),
+                expr(f"aes_decrypt(unbase64({column}), {self.decryption_key}, 'GCM')"),
             )
 
         for column in self.pii_columns:
             df_invalid = df_invalid.withColumn(
                 column,
-                pyspark.sql.functions.expr(
-                    f"aes_decrypt(unbase64({column}), {self.decryption_key}, 'GCM')"
-                ),
+                expr(f"aes_decrypt(unbase64({column}), {self.decryption_key}, 'GCM')"),
             )
-        
+
         return df_valid, df_invalid
-    
