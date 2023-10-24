@@ -6,7 +6,8 @@ import os
 
 from pyspark.sql.functions import expr
 
-class WriteCSV:  # pylint: disable=too-many-instance-attributes
+
+class CSVWriter:  # pylint: disable=too-many-instance-attributes
 
     """Provides the write_csv method to write a CSV file."""
 
@@ -35,13 +36,16 @@ class WriteCSV:  # pylint: disable=too-many-instance-attributes
         self.escape_char = escape_char
         self.options = options
 
-    def write_csv(self):
+    def write_csv(self, encrypt=False):
         """Write a CSV File to the specified Azure ADLS location.
         Supported optional parameters can be found from the spark documentation:
         [1]: https://spark.apache.org/docs/3.5.0/sql-data-sources-csv.html
         [2]: https://spark.apache.org/docs/latest/sql-data-sources-generic-options.html
         [3]: https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/api/pyspark.sql.DataFrameWriter.csv.html
         """  # pylint: disable=line-too-long
+
+        if encrypt:
+            self.df_csv = self._encrypt_cols()
 
         self.df_csv = self.df_csv.coalesce(1)
         df_writer = self.df_csv.write.format("csv").mode(self.mode)
@@ -81,8 +85,9 @@ class WriteCSV:  # pylint: disable=too-many-instance-attributes
             # Delete the temporary file path.
             shutil.rmtree("dbfs:" + os.path.join(temp_filepath, part_filename))
 
-    def write_csv_with_pii(self):
-        """Write a CSV file with PII columns, encrypted with a key.
+    def _encrypt_cols(self):
+        """Use the AES-GCM algorithm to encrypt the PII columns in the CSV dataframe,
+        using the encryption key provided.
         The algorithm depends on the length of the key:
             16: AES-128
             24: AES-192
@@ -91,10 +96,11 @@ class WriteCSV:  # pylint: disable=too-many-instance-attributes
         """  # pylint: disable=line-too-long
 
         # Encrypt the PII columns with the key provided, using AES-GCM algorithm.
+        df_encrypted = self.df_csv
         for column in self.pii_columns:
-            self.df_csv = self.df_csv.withColumn(
+            df_encrypted = df_encrypted.withColumn(
                 column,
                 expr(f"aes_encrypt(base64({column}), {self.encryption_key}, 'GCM')"),
             )
 
-        self.write_csv()
+        return df_encrypted
