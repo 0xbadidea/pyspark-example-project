@@ -4,6 +4,7 @@ from pyspark.storagelevel import StorageLevel
 from pyspark.sql.types import StructType, StringType
 from pyspark.sql.functions import expr
 
+#TODO: Rehaul the API design - https://benhoyt.com/writings/python-api-design/
 
 class CSVReader:  # pylint: disable=too-few-public-methods
 
