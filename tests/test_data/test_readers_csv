@@ -1,0 +1,8 @@
+from dependencies.spark import start_spark
+from connectors.readers.csv import CSVReader
+spark, *_ = start_spark()
+df_valid, df_invalid = CSVReader(spark, "tests/test_data/top_spotify_songs/universal_top_spotify_songs.csv").read_csv()
+print(df_valid.count())
+print(df_invalid.count())
+
+df_valid.show(10, truncate=False, vertical=True)
