@@ -119,6 +119,9 @@ class CSVReader:  # pylint: disable=too-few-public-methods
             df_valid = df_csv
             df_invalid = df_csv.limit(0)
 
+        # Unpersist the csv dataframe.
+        df_csv.unpersist()
+
         return df_valid, df_invalid
 
     def __create_string_schema(self, schema):
