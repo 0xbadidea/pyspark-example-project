@@ -7,7 +7,7 @@ job defined in etl_job.py. It makes use of a local version of PySpark
 that is bundled with the PySpark package.
 """
 
-# To run the tests first execute export PYTHONPATH="/workspaces/pyspark-example-project:$PYTHONPATH" 
+# To run the tests first execute export PYTHONPATH="/workspaces/pyspark-example-project:$PYTHONPATH"
 # in the terminal.
 
 import unittest
