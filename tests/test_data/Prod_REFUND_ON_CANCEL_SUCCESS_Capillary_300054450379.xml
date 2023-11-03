@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Event>
+    <EventDetails EntitySubType="SALES_ORDER" EntityType="ORDER"
+        EntityVersion="1" EventData="Order" EventSource="SterlingOMS"
+        EventSubType="REFUND_ON_CANCEL" EventTarget="ALL"
+        EventTime="2023-09-26T05:25:05+05:30" EventType="REFUND"
+        MasterOrderNumber="" OrderAncestry="" OrderChannel="POS"
+        OrderEnterprise="CROMA" OrderNumber="300054450379"
+        OrderProcessType="SalesOrder" OrderSource="EC" OrderType="SL"
+        ParentOrderNumber="" ResentFlag="" ResentTime="" />
+    <CurrentState>
+        <Order CarrierAccountNo="" CarrierServiceCode=""
+            ChargeActualFreightFlag="N"
+            Createts="2023-09-26T05:22:33+05:30"
+            CustomerContactID="c6835c7fd5be27b29549dd9863e584f8"
+            CustomerPONo="" DeliveryCode="" Division=""
+            DocumentType="0001" DraftOrderFlag="N"
+            EnterpriseCode="CROMA" EntryType="POS" FreightTerms=""
+            HoldFlag="N" HoldReasonCode="" MaxOrderStatus="9000"
+            MaxOrderStatusDesc="Cancelled" MinOrderStatus="9000"
+            MinOrderStatusDesc="Cancelled"
+            Modifyts="2023-09-26T05:25:15+05:30"
+            NotifyAfterShipmentFlag="N"
+            OrderDate="2023-09-26T05:22:24+05:30"
+            OrderHeaderKey="202309260522288989634347" OrderName=""
+            OrderNo="300054450379" OrderType="SL" OriginalTax="0.00"
+            OriginalTotalAmount="94.00" OtherCharges="0.00" Override=""
+            PaymentStatus="NOT_APPLICABLE" PersonalizeCode=""
+            PriorityCode="" PriorityNumber="0" Purpose="" SCAC=""
+            ScacAndService="" ScacAndServiceKey=""
+            SearchCriteria1="Phase2" SearchCriteria2=""
+            SellerOrganizationCode="CROMA" SourcingClassification="EC"
+            Status="Cancelled" TaxExemptFlag="N"
+            TaxExemptionCertificate="" TaxJurisdiction="" TaxPayerId=""
+            TermsCode="" TotalAdjustmentAmount="0.00" isHistory="N">
+            <Extn ExtnChannelOrderNo="300054450379"
+                ExtnManualOrderReadyForConfirm="N" SaleDate="2023-09-26T00:00:00+05:30" />
+            <PriceInfo ChangeInTotalAmount="0.00" Currency="INR"
+                EnterpriseCurrency="INR"
+                ReportingConversionDate="2023-09-26T05:22:33+05:30"
+                ReportingConversionRate="1.00" TotalAmount="0.00" />
+            <PersonInfoBillTo AddressLine1="" AddressLine2=""
+                AddressLine3="" AddressLine4="" AddressLine5=""
+                AddressLine6="" AlternateEmailID="" Beeper=""
+                City="BENGALURU" Company="" Country="IN"
+                Createprogid="Ph2CreateOrderInt"
+                Createts="2023-06-02T02:34:53+05:30"
+                Createuserid="Ph2CreateOrderInt" DayFaxNo="" DayPhone=""
+                Department="" EMailID="manish.dewangan@croma.com"
+                ErrorTxt="" EveningFaxNo="" EveningPhone=""
+                FirstName="Manish Kumar Dewangan" HttpUrl="" JobTitle=""
+                LastName="" Latitude="13.0963949" Lockid="0"
+                Longitude="77.6185456" MiddleName=""
+                MobilePhone="9686544044"
+                Modifyprogid="Ph2CreateOrderInt"
+                Modifyts="2023-06-02T02:34:53+05:30"
+                Modifyuserid="Ph2CreateOrderInt" OtherPhone=""
+                PersonID="" PersonInfoKey="202306020234537382140519"
+                PreferredShipAddress="" State="KARNATAKA-29" Suffix=""
+                Title="" UseCount="0" VerificationStatus=""
+                ZipCode="560064" isHistory="N">
+                <Extn
+                    IRLAddressLine1="HNO 415, APOORVA MEADOWS APT, KOGILU-SAMPIGAHALLI RD, AGARHARA LYT"
+                    IRLAddressLine2="Agrahara Badavane, Bengaluru"
+                    IRLAddressLine3="OPP TO SUPER PARK FOOTBAAL  ACADEMY"
+                    IRLAddressLine4="BENGALURU" />
+            </PersonInfoBillTo>
+            <PersonInfoShipTo AddressLine1="" AddressLine2=""
+                AddressLine3="" AddressLine4="" AddressLine5=""
+                AddressLine6="" AlternateEmailID="" Beeper=""
+                City="BENGALURU" Company="" Country="IN"
+                Createprogid="Ph2CreateOrderInt"
+                Createts="2023-06-02T02:34:53+05:30"
+                Createuserid="Ph2CreateOrderInt" DayFaxNo="" DayPhone=""
+                Department="" EMailID="manish.dewangan@croma.com"
+                ErrorTxt="" EveningFaxNo="" EveningPhone=""
+                FirstName="Manish Kumar Dewangan" HttpUrl="" JobTitle=""
+                LastName="" Latitude="13.0963949" Lockid="0"
+                Longitude="77.6185456" MiddleName=""
+                MobilePhone="9686544044"
+                Modifyprogid="Ph2CreateOrderInt"
+                Modifyts="2023-06-02T02:34:53+05:30"
+                Modifyuserid="Ph2CreateOrderInt" OtherPhone=""
+                PersonID="" PersonInfoKey="202306020234537382140519"
+                PreferredShipAddress="" State="KARNATAKA-29" Suffix=""
+                Title="" UseCount="0" VerificationStatus=""
+                ZipCode="560064" isHistory="N">
+                <Extn
+                    IRLAddressLine1="HNO 415, APOORVA MEADOWS APT, KOGILU-SAMPIGAHALLI RD, AGARHARA LYT"
+                    IRLAddressLine2="Agrahara Badavane, Bengaluru"
+                    IRLAddressLine3="OPP TO SUPER PARK FOOTBAAL  ACADEMY"
+                    IRLAddressLine4="BENGALURU" />
+            </PersonInfoShipTo>
+            <PaymentMethods>
+                <PaymentMethod AwaitingAuthInterfaceAmount="0.00"
+                    AwaitingChargeInterfaceAmount="0.00"
+                    ChargeSequence="0" CheckNo="" CheckReference=""
+                    Createts="2023-09-26T05:22:33+05:30"
+                    CreditCardExpDate="" CreditCardName=""
+                    CreditCardType="" CustomerPONo=""
+                    DisplayCreditCardNo="" IncompletePaymentType=""
+                    MaxChargeLimit="0.00"
+                    Modifyts="2023-09-26T05:25:15+05:30"
+                    PaymentKey="202309260581222989634767"
+                    PaymentReference1="ZTPL" PaymentReference2="1"
+                    PaymentReference3="" PaymentReference6="4sFlFA"
+                    PaymentType="TATAPAY" RequestedAuthAmount="0.00"
+                    RequestedChargeAmount="0.00"
+                    SuspendAnyMoreCharges="N" TotalAuthorized="0.00"
+                    TotalCharged="1.00" TotalRefundedAmount="1.00" UnlimitedCharges="Y">
+                    <Extn ExtnCancelledAmount="1.00" TenderDescription="Neu Coins" />
+                </PaymentMethod>
+                <PaymentMethod AwaitingAuthInterfaceAmount="0.00"
+                    AwaitingChargeInterfaceAmount="0.00"
+                    ChargeSequence="0" CheckNo="" CheckReference=""
+                    Createts="2023-09-26T05:22:33+05:30"
+                    CreditCardExpDate="" CreditCardName=""
+                    CreditCardType="" CustomerPONo=""
+                    DisplayCreditCardNo="" IncompletePaymentType=""
+                    MaxChargeLimit="0.00"
+                    Modifyts="2023-09-26T05:25:15+05:30"
+                    PaymentKey="202309260502222989634778"
+                    PaymentReference1="ZPAU" PaymentReference2="2"
+                    PaymentReference3=""
+                    PaymentReference6="300054450379-26052144"
+                    PaymentType="PAYU" RequestedAuthAmount="0.00"
+                    RequestedChargeAmount="0.00"
+                    SuspendAnyMoreCharges="N" TotalAuthorized="0.00"
+                    TotalCharged="93.00" TotalRefundedAmount="93.00" UnlimitedCharges="Y">
+                    <Extn ExtnCancelledAmount="93.00"
+                        IssuerName="HDFC Bank" TenderDescription="Credit Card" />
+                </PaymentMethod>
+            </PaymentMethods>
+            <ChargeTransactionDetails
+                AdditionalExpectedAuthorizations="0.00"
+                TotalCredits="0.00" TotalDebits="0.00"
+                TotalOpenAuthorizations="0.00" TotalOpenBookings="0.00"
+                TotalTransferredIn="0.00" TotalTransferredOut="0.00">
+                <ChargeTransactionDetail AuditTransactionID=""
+                    AuthorizationExpirationDate="2023-09-26T05:22:29+05:30"
+                    AuthorizationID="" BookAmount="0.00"
+                    ChargeTransactionKey="202309260522298989634768"
+                    ChargeType="CHARGE"
+                    CollectionDate="2023-09-26T05:22:29+05:30"
+                    CreditAmount="1.00" DebitAmount="0.00"
+                    DistributedAmount="0.00" HoldAgainstBook="Y"
+                    OpenAuthorizedAmount="0.00"
+                    OrderHeaderKey="202309260522288989634347"
+                    OrderInvoiceKey=""
+                    PaymentKey="202309260581222989634767"
+                    RequestAmount="0.00" SettledAmount="0.00"
+                    Status="CLOSED"
+                    TransactionDate="2023-09-26T05:22:29+05:30" UserExitStatus="">
+                    <CreditCardTransactions />
+                    <PaymentMethod AwaitingAuthInterfaceAmount="0.00"
+                        AwaitingChargeInterfaceAmount="0.00"
+                        ChargeSequence="0" CheckNo="" CheckReference=""
+                        CreditCardExpDate="" CreditCardName=""
+                        CreditCardType="" CustomerPONo=""
+                        DisplayCreditCardNo="" IncompletePaymentType=""
+                        MaxChargeLimit="0.00"
+                        PaymentKey="202309260581222989634767"
+                        PaymentReference1="ZTPL" PaymentReference2="1"
+                        PaymentReference3="" PaymentType="TATAPAY"
+                        RequestedAuthAmount="0.00"
+                        RequestedChargeAmount="0.00"
+                        SuspendAnyMoreCharges="N" TotalAuthorized="0.00"
+                        TotalCharged="1.00" TotalRefundedAmount="1.00" UnlimitedCharges="Y" />
+                </ChargeTransactionDetail>
+                <ChargeTransactionDetail AuditTransactionID=""
+                    AuthorizationExpirationDate="2023-09-26T05:22:29+05:30"
+                    AuthorizationID="" BookAmount="0.00"
+                    ChargeTransactionKey="202309260522298989634781"
+                    ChargeType="CHARGE"
+                    CollectionDate="2023-09-26T05:22:29+05:30"
+                    CreditAmount="93.00" DebitAmount="0.00"
+                    DistributedAmount="0.00" HoldAgainstBook="Y"
+                    OpenAuthorizedAmount="0.00"
+                    OrderHeaderKey="202309260522288989634347"
+                    OrderInvoiceKey=""
+                    PaymentKey="202309260502222989634778"
+                    RequestAmount="0.00" SettledAmount="0.00"
+                    Status="CLOSED"
+                    TransactionDate="2023-09-26T05:22:29+05:30" UserExitStatus="">
+                    <CreditCardTransactions />
+                    <PaymentMethod AwaitingAuthInterfaceAmount="0.00"
+                        AwaitingChargeInterfaceAmount="0.00"
+                        ChargeSequence="0" CheckNo="" CheckReference=""
+                        CreditCardExpDate="" CreditCardName=""
+                        CreditCardType="" CustomerPONo=""
+                        DisplayCreditCardNo="" IncompletePaymentType=""
+                        MaxChargeLimit="0.00"
+                        PaymentKey="202309260502222989634778"
+                        PaymentReference1="ZPAU" PaymentReference2="2"
+                        PaymentReference3="" PaymentType="PAYU"
+                        RequestedAuthAmount="0.00"
+                        RequestedChargeAmount="0.00"
+                        SuspendAnyMoreCharges="N" TotalAuthorized="0.00"
+                        TotalCharged="93.00" TotalRefundedAmount="93.00" UnlimitedCharges="Y" />
+                </ChargeTransactionDetail>
+                <ChargeTransactionDetail
+                    AuditTransactionID="300054450379-1-20230926052505"
+                    AuthorizationExpirationDate="2023-09-26T05:25:05+05:30"
+                    AuthorizationID="" BookAmount="0.00"
+                    ChargeTransactionKey="202309260525058989683911"
+                    ChargeType="CHARGE"
+                    CollectionDate="2023-09-26T05:25:05+05:30"
+                    CreditAmount="-93.00" DebitAmount="0.00"
+                    DistributedAmount="0.00" HoldAgainstBook="Y"
+                    OpenAuthorizedAmount="0.00"
+                    OrderHeaderKey="202309260522288989634347"
+                    OrderInvoiceKey=""
+                    PaymentKey="202309260502222989634778"
+                    RequestAmount="0.00" SettledAmount="0.00"
+                    Status="CLOSED"
+                    TransactionDate="2023-09-26T05:25:05+05:30" UserExitStatus="">
+                    <CreditCardTransactions>
+                        <CreditCardTransaction AuthAmount="-93.00"
+                            AuthAvs="" AuthCode="" AuthReturnCode=""
+                            AuthReturnFlag="" AuthReturnMessage=""
+                            AuthTime="2023-09-26T05:25:05+05:30"
+                            ChargeTransactionKey="202309260525058989683911"
+                            CreditCardTransactionKey="202309260523250589683913"
+                            InternalReturnCode="" InternalReturnFlag=""
+                            InternalReturnMessage="" ParentKey=""
+                            Reference1="ZPAU" Reference2="" RequestId=""
+                            TranAmount="0.00"
+                            TranRequestTime="2023-09-26T05:25:05+05:30"
+                            TranReturnCode="" TranReturnFlag=""
+                            TranReturnMessage="" TranType="CHARGE" />
+                    </CreditCardTransactions>
+                    <PaymentMethod AwaitingAuthInterfaceAmount="0.00"
+                        AwaitingChargeInterfaceAmount="0.00"
+                        ChargeSequence="0" CheckNo="" CheckReference=""
+                        CreditCardExpDate="" CreditCardName=""
+                        CreditCardType="" CustomerPONo=""
+                        DisplayCreditCardNo="" IncompletePaymentType=""
+                        MaxChargeLimit="0.00"
+                        PaymentKey="202309260502222989634778"
+                        PaymentReference1="ZPAU" PaymentReference2="2"
+                        PaymentReference3="" PaymentType="PAYU"
+                        RequestedAuthAmount="0.00"
+                        RequestedChargeAmount="0.00"
+                        SuspendAnyMoreCharges="N" TotalAuthorized="0.00"
+                        TotalCharged="93.00" TotalRefundedAmount="93.00" UnlimitedCharges="Y" />
+                </ChargeTransactionDetail>
+                <ChargeTransactionDetail
+                    AuditTransactionID="300054450379-1-20230926052505"
+                    AuthorizationExpirationDate="2023-09-26T05:25:05+05:30"
+                    AuthorizationID="" BookAmount="0.00"
+                    ChargeTransactionKey="202309260525058989683925"
+                    ChargeType="CHARGE"
+                    CollectionDate="2023-09-26T05:25:05+05:30"
+                    CreditAmount="-1.00" DebitAmount="0.00"
+                    DistributedAmount="0.00" HoldAgainstBook="Y"
+                    OpenAuthorizedAmount="0.00"
+                    OrderHeaderKey="202309260522288989634347"
+                    OrderInvoiceKey=""
+                    PaymentKey="202309260581222989634767"
+                    RequestAmount="0.00" SettledAmount="0.00"
+                    Status="CLOSED"
+                    TransactionDate="2023-09-26T05:25:05+05:30" UserExitStatus="">
+                    <CreditCardTransactions>
+                        <CreditCardTransaction AuthAmount="-1.00"
+                            AuthAvs="" AuthCode="" AuthReturnCode=""
+                            AuthReturnFlag="" AuthReturnMessage=""
+                            AuthTime="2023-09-26T05:25:05+05:30"
+                            ChargeTransactionKey="202309260525058989683925"
+                            CreditCardTransactionKey="202309260591250589683926"
+                            InternalReturnCode="" InternalReturnFlag=""
+                            InternalReturnMessage="" ParentKey=""
+                            Reference1="ZTPL" Reference2="" RequestId=""
+                            TranAmount="0.00"
+                            TranRequestTime="2023-09-26T05:25:05+05:30"
+                            TranReturnCode="" TranReturnFlag=""
+                            TranReturnMessage="" TranType="CHARGE" />
+                    </CreditCardTransactions>
+                    <PaymentMethod AwaitingAuthInterfaceAmount="0.00"
+                        AwaitingChargeInterfaceAmount="0.00"
+                        ChargeSequence="0" CheckNo="" CheckReference=""
+                        CreditCardExpDate="" CreditCardName=""
+                        CreditCardType="" CustomerPONo=""
+                        DisplayCreditCardNo="" IncompletePaymentType=""
+                        MaxChargeLimit="0.00"
+                        PaymentKey="202309260581222989634767"
+                        PaymentReference1="ZTPL" PaymentReference2="1"
+                        PaymentReference3="" PaymentType="TATAPAY"
+                        RequestedAuthAmount="0.00"
+                        RequestedChargeAmount="0.00"
+                        SuspendAnyMoreCharges="N" TotalAuthorized="0.00"
+                        TotalCharged="1.00" TotalRefundedAmount="1.00" UnlimitedCharges="Y" />
+                </ChargeTransactionDetail>
+            </ChargeTransactionDetails>
+            <Notes NumberOfNotes="0" />
+            <Instructions NumberOfInstructions="0" />
+            <OrderHoldTypes />
+            <AdditionalAddresses NumberOfAdditionalAddresses="0" />
+            <OverallTotals GrandCharges="0.00" GrandDiscount="0.00"
+                GrandTax="0.00" GrandTotal="0.00" HdrCharges="0.00"
+                HdrDiscount="0.00" HdrTax="0.00" HdrTotal="0.00" LineSubTotal="0.00" />
+            <InvoicedTotals GrandCharges="0.00" GrandDiscount="0.00"
+                GrandTax="0.00" GrandTotal="0.00" HdrCharges="0.00"
+                HdrDiscount="0.00" HdrTax="0.00" HdrTotal="0.00" LineSubTotal="0.00" />
+            <RemainingTotals GrandCharges="0.00" GrandDiscount="0.00"
+                GrandTax="0.00" GrandTotal="0.00" HdrCharges="0.00"
+                HdrDiscount="0.00" HdrTax="0.00" HdrTotal="0.00" LineSubTotal="0.00" />
+            <HeaderCharges />
+            <OrderLines>
+                <OrderLine AllocationDate="2023-09-26"
+                    CarrierAccountNo=""
+                    CarrierServiceCode="BlueDart - 7 Day Frieght"
+                    ConditionVariable1="Phase2"
+                    Createts="2023-09-26T05:22:33+05:30"
+                    CustomerLinePONo="" CustomerPONo="" DeliveryCode=""
+                    DeliveryMethod="SHP" DepartmentCode=""
+                    FreightTerms="" FulfillmentType="HDEL"
+                    HasDeliveryLines="N" HoldFlag="N" HoldReasonCode=""
+                    ImportLicenseNo="" InvoicedQty="0.00"
+                    IsBundleParent="N" ItemGroupCode="PROD" KitCode=""
+                    LineSeqNo="1.1" LineType="REGULAR"
+                    MaxLineStatus="9000" MaxLineStatusDesc="Cancelled"
+                    MinLineStatus="9000" MinLineStatusDesc="Cancelled"
+                    Modifyts="2023-09-26T05:25:05+05:30" OpenQty="0.00"
+                    OrderHeaderKey="202309260522288989634347"
+                    OrderLineKey="202309260522288989634513"
+                    OrderedQty="0.00" OriginalOrderedQty="1.00"
+                    OtherCharges="0.00" PackListType="SA"
+                    PersonalizeCode="1" PersonalizeFlag=""
+                    PickableFlag="Y" PrimeLineNo="1" Purpose=""
+                    RemainingQty="0.00"
+                    ReqDeliveryDate="2023-09-28T00:00:00+05:30"
+                    ReservationID="R300054450379_13347_193078_0_0"
+                    ReservationPool="" ReturnReason="" SCAC="BlueDart"
+                    ScacAndService="" ScacAndServiceKey=""
+                    ShipNode="D001" ShipTogetherNo="" SplitQty="0.00"
+                    Status="Cancelled" StatusQuantity="0.00"
+                    SubLineNo="1" TransactionalLineId="" isHistory="N">
+                    <Item
+                        ItemDesc="scratchgard Screen Protector for SONY Xperia C5 Ultra (Self Adhesive)"
+                        ItemID="193078"
+                        ItemShortDesc="Scratchgard Twin Pack Xperia C5 Ultra"
+                        ProductClass="" ProductLine="0179"
+                        UnitCost="0.00" UnitOfMeasure="EA" />
+                    <Extn
+                        ArticleDesc="Scratchgard Twin Pack Xperia C5 Ultra"
+                        Brand="0334"
+                        BuyerConfirmationName="Manish Kumar Dewangan"
+                        ConsigneeContactNumber="9686544044"
+                        DeliveryTimeFrom="2023-09-28T08:00:00+05:30"
+                        DeliveryTimeTo="2023-09-28T09:00:00+05:30"
+                        ExtnAssocLine="2" ExtnESite="E001"
+                        ExtnIsEWaste="N" ExtnOrigLineTotal="94.00"
+                        ExtnReturnedQty="0"
+                        InvoiceLineDeliveryTypes="CSS"
+                        MaterialType="ZPLU"
+                        OriginalReqDeliveryDate="2023-09-28T00:00:00+05:30"
+                        POSRefNo="H589288001"
+                        ReasonCode="Change of mind" TMSConfirmOrder="0">
+                        <MarkDownDetailList />
+                        <RefundStatusList>
+                            <RefundStatus
+                                AutoRefundKey="202309260525168989687256"
+                                AvailableDate="2023-09-26T05:25:16+05:30"
+                                Createts="2023-09-26T05:25:16+05:30"
+                                ExternalSystem="Capillary"
+                                ItemID="193078"
+                                Modifyts="2023-09-26T05:25:16+05:30"
+                                OrderNo="300054450379" PrimeLineNo="1"
+                                RefundAmount="1.0" RefundReason="CANCEL"
+                                RefundReference="MOaNgz"
+                                RefundStatus="SUCCESS" RetryCount="0"
+                                Statusts="2023-09-26T05:25:16+05:30"
+                                Tender="ZTPL" TransactionID="4sFlFA"
+                                UniqueRequestID="000544503791000104325" />
+                            <RefundStatus
+                                AutoRefundKey="202309260525168989687433"
+                                AvailableDate="2023-09-26T05:25:16+05:30"
+                                Createts="2023-09-26T05:25:16+05:30"
+                                ExternalSystem="jusPay" ItemID="193078"
+                                Modifyts="2023-09-26T05:25:16+05:30"
+                                OrderNo="300054450379" PrimeLineNo="1"
+                                RefundAmount="93.0"
+                                RefundReason="CANCEL"
+                                RefundStatus="PENDING" RetryCount="0"
+                                Statusts="2023-09-26T05:25:16+05:30"
+                                Tender="ZPAU"
+                                TransactionID="300054450379-26052144"
+                                UniqueRequestID="000544503791000104324" />
+                        </RefundStatusList>
+                    </Extn>
+                    <LinePriceInfo DisplayUnitPrice="79.66"
+                        IsPriceLocked="Y" LineTotal="0.00"
+                        ListPrice="79.66" UnitPrice="79.66" />
+                    <Instructions NumberOfInstructions="0" />
+                    <PersonInfoShipTo AddressLine1="" AddressLine2=""
+                        AddressLine3="" AddressLine4="" AddressLine5=""
+                        AddressLine6="" AlternateEmailID="" Beeper=""
+                        City="BENGALURU" Company="" Country="IN"
+                        DayFaxNo="" DayPhone="" Department="" EMailID=""
+                        ErrorTxt="" EveningFaxNo="" EveningPhone=""
+                        FirstName="Manish Kumar Dewangan" HttpUrl=""
+                        JobTitle="" LastName="" Latitude="13.0963949"
+                        Longitude="77.6185456" MiddleName=""
+                        MobilePhone="9686544044" OtherPhone=""
+                        PersonID=""
+                        PersonInfoKey="202309260522298989634799"
+                        PreferredShipAddress="" State="KARNATAKA-29"
+                        Suffix="" Title="" UseCount="0"
+                        VerificationStatus="" ZipCode="560064">
+                        <Extn
+                            IRLAddressLine1="HNO 415, APOORVA MEADOWS APT, KOGILU-SAMPIGAHALLI RD, AGARHARA LYT"
+                            IRLAddressLine2="Agrahara Badavane, Bengaluru"
+                            IRLAddressLine3="OPP TO SUPER PARK FOOTBAAL  ACADEMY"
+                            IRLAddressLine4="BENGALURU" />
+                    </PersonInfoShipTo>
+                    <KitLines NumberOfKitLines="0" />
+                    <References />
+                    <Notes NumberOfNotes="0" />
+                    <AdditionalAddresses NumberOfAdditionalAddresses="0" />
+                    <Schedules />
+                    <LineOverallTotals Charges="0.00" Discount="0.00"
+                        ExtendedPrice="0.00" LineTotal="0.00"
+                        OptionPrice="0.00" PricingQty="0.00" Tax="0.00" UnitPrice="79.66" />
+                    <LineInvoicedTotals AdditionalLinePriceTotal="0.00"
+                        Charges="0.00" Discount="0.00"
+                        ExtendedPrice="0.00" LineTotal="0.00"
+                        OptionPrice="0.00" PricingQty="0.00" Tax="0.00" UnitPrice="0.00" />
+                    <LineRemainingTotals AdditionalLinePriceTotal="0.00"
+                        Charges="0.00" Discount="0.00"
+                        ExtendedPrice="0.00" LineTotal="0.00"
+                        OptionPrice="0.00" PricingQty="0.00" Tax="0.00" UnitPrice="79.66" />
+                    <LineCharges />
+                    <LineTaxes>
+                        <LineTax ChargeCategory="" ChargeName=""
+                            ChargeNameKey="" InvoicedTax="0.00"
+                            Reference1="" Reference2="" Reference3=""
+                            RemainingTax="0.00" Tax="0.00"
+                            TaxName="IGST" TaxPercentage="0.00" />
+                    </LineTaxes>
+                    <OrderStatuses>
+                        <OrderStatus Createprogid="RestServlet"
+                            Createts="2023-09-26T05:25:05+05:30"
+                            Createuserid="admin"
+                            ExpectedShipmentDate="2023-09-28T00:00:00+05:30"
+                            Lockid="0" Modifyprogid="RestServlet"
+                            Modifyts="2023-09-26T05:25:05+05:30"
+                            Modifyuserid="admin"
+                            OrderHeaderKey="202309260522288989634347"
+                            OrderLineKey="202309260522288989634513"
+                            OrderLineScheduleKey="202309260592224589640046"
+                            OrderReleaseKey="202309260522498989641111"
+                            OrderReleaseStatusKey="202309260558250589683841"
+                            PipelineKey="20200131174858480431"
+                            ShipNode="D001" Status="9000"
+                            StatusDate="2023-09-26T05:25:05+05:30"
+                            StatusDescription="Cancelled"
+                            StatusQty="1.00" TotalQuantity="1.00" isHistory="N">
+                            <Details ExpectedDeliveryDate="2023-09-28T00:00:00+05:30" />
+                            <OrderStatusTranQuantity StatusQty="1.00"
+                                TotalQuantity="1.00" TransactionalUOM="EA" />
+                        </OrderStatus>
+                    </OrderStatuses>
+                    <OrderLineTranQuantity OrderedQty="0.00" />
+                    <ShipmentLines />
+                    <ItemDetails CanUseAsServiceTool="N"
+                        Createprogid="ManageItem_Int"
+                        Createts="2018-08-07T01:56:36+05:30"
+                        Createuserid="ManageItem_Int"
+                        DisplayItemId="193078" GlobalItemID=""
+                        InheritAttributesFromClassification="Y"
+                        IsShippingCntr="N" ItemGroupCode="PROD"
+                        ItemID="193078" ItemKey="20180807015636898682"
+                        Lockid="143"
+                        MaxModifyTS="2023-06-30T12:51:25+05:30"
+                        Modifyprogid="ManageItem_Int"
+                        Modifyts="2023-06-30T12:51:25+05:30"
+                        Modifyuserid="ManageItem_Int"
+                        OrganizationCode="CROMA" UnitOfMeasure="EA">
+                        <PrimaryInformation
+                            Description="Scratchgard Twin Pack Xperia C5 Ultra"
+                            ItemType="ZPLU"
+                            ShortDescription="Scratchgard Twin Pack Xperia C5 Ultra"
+                            UnitHeight="8.00" UnitLength="10.00"
+                            UnitWeight="0.00" UnitWidth="10.00" />
+                        <ClassificationCodes CommodityCode="SA" />
+                    </ItemDetails>
+                </OrderLine>
+                <OrderLine AllocationDate="2023-09-26"
+                    CarrierAccountNo=""
+                    CarrierServiceCode="7 Day Frieght"
+                    ConditionVariable1="Phase2"
+                    Createts="2023-09-26T05:22:33+05:30"
+                    CustomerLinePONo="" CustomerPONo="" DeliveryCode=""
+                    DeliveryMethod="DEL" DepartmentCode=""
+                    FreightTerms="" FulfillmentType="HDEL"
+                    HasDeliveryLines="N" HoldFlag="N" HoldReasonCode=""
+                    ImportLicenseNo="" InvoicedQty="0.00"
+                    IsBundleParent="N" ItemGroupCode="DS" KitCode=""
+                    LineSeqNo="2.1" LineType="" MaxLineStatus="9000"
+                    MaxLineStatusDesc="Cancelled" MinLineStatus="9000"
+                    MinLineStatusDesc="Cancelled"
+                    Modifyts="2023-09-26T05:25:15+05:30" OpenQty="0.00"
+                    OrderHeaderKey="202309260522288989634347"
+                    OrderLineKey="202309260522288989634515"
+                    OrderedQty="0.00" OriginalOrderedQty="1.00"
+                    OtherCharges="0.00" PackListType=""
+                    PersonalizeCode="" PersonalizeFlag=""
+                    PickableFlag="Y" PrimeLineNo="2" Purpose=""
+                    RemainingQty="0.00" ReservationID=""
+                    ReservationPool="" ReturnReason="" SCAC="BlueDart"
+                    ScacAndService="BlueDart - 7 Day Frieght"
+                    ScacAndServiceKey="202004221856332091036"
+                    ShipNode="D001" ShipTogetherNo="" SplitQty="0.00"
+                    Status="Cancelled" StatusQuantity="0.00"
+                    SubLineNo="1" TransactionalLineId="" isHistory="N">
+                    <Item ItemDesc="" ItemID="HomeDelivery"
+                        ItemShortDesc="Home Delivery Service"
+                        ProductClass="" ProductLine="" UnitCost="0.00" UnitOfMeasure="UNIT" />
+                    <Extn ExtnAssocLine="1" ExtnIsEWaste="N"
+                        ExtnOrigLineTotal="0.00" ExtnReturnedQty="0" TMSConfirmOrder="0">
+                        <MarkDownDetailList />
+                        <RefundStatusList />
+                    </Extn>
+                    <LinePriceInfo DisplayUnitPrice="0.00"
+                        IsPriceLocked="N" LineTotal="0.00"
+                        ListPrice="0.00" UnitPrice="0.00" />
+                    <Instructions NumberOfInstructions="0" />
+                    <KitLines NumberOfKitLines="0" />
+                    <References />
+                    <Notes NumberOfNotes="0" />
+                    <AdditionalAddresses NumberOfAdditionalAddresses="0" />
+                    <Schedules />
+                    <LineOverallTotals Charges="0.00" Discount="0.00"
+                        ExtendedPrice="0.00" LineTotal="0.00"
+                        OptionPrice="0.00" PricingQty="0.00" Tax="0.00" UnitPrice="0.00" />
+                    <LineInvoicedTotals AdditionalLinePriceTotal="0.00"
+                        Charges="0.00" Discount="0.00"
+                        ExtendedPrice="0.00" LineTotal="0.00"
+                        OptionPrice="0.00" PricingQty="0.00" Tax="0.00" UnitPrice="0.00" />
+                    <LineRemainingTotals AdditionalLinePriceTotal="0.00"
+                        Charges="0.00" Discount="0.00"
+                        ExtendedPrice="0.00" LineTotal="0.00"
+                        OptionPrice="0.00" PricingQty="0.00" Tax="0.00" UnitPrice="0.00" />
+                    <LineCharges />
+                    <LineTaxes />
+                    <OrderStatuses>
+                        <OrderStatus Createprogid="RestServlet"
+                            Createts="2023-09-26T05:25:15+05:30"
+                            Createuserid="admin"
+                            ExpectedShipmentDate="2023-09-26T05:22:29+05:30"
+                            Lockid="0" Modifyprogid="RestServlet"
+                            Modifyts="2023-09-26T05:25:15+05:30"
+                            Modifyuserid="admin"
+                            OrderHeaderKey="202309260522288989634347"
+                            OrderLineKey="202309260522288989634515"
+                            OrderLineScheduleKey="202309260576251589687009"
+                            OrderReleaseStatusKey="202309260528251589687010"
+                            PipelineKey="20191212144513160718"
+                            ShipNode="D001" Status="9000"
+                            StatusDate="2023-09-26T05:25:15+05:30"
+                            StatusDescription="Cancelled"
+                            StatusQty="1.00" TotalQuantity="1.00" isHistory="N">
+                            <Details ExpectedDeliveryDate="2023-09-28T13:13:39+05:30" />
+                            <OrderStatusTranQuantity StatusQty="1.00"
+                                TotalQuantity="1.00" TransactionalUOM="UNIT" />
+                        </OrderStatus>
+                    </OrderStatuses>
+                    <OrderLineTranQuantity OrderedQty="0.00" />
+                    <ShipmentLines />
+                    <ItemDetails CanUseAsServiceTool="N"
+                        Createprogid="Business_Center"
+                        Createts="2021-01-06T11:52:12+05:30"
+                        Createuserid="admin"
+                        DisplayItemId="HomeDelivery" GlobalItemID=""
+                        InheritAttributesFromClassification="Y"
+                        IsShippingCntr="N" ItemGroupCode="DS"
+                        ItemID="HomeDelivery"
+                        ItemKey="20210106115212869366581" Lockid="2"
+                        MaxModifyTS="2021-01-06T11:57:12+05:30"
+                        Modifyprogid="Business_Center"
+                        Modifyts="2021-01-06T11:57:12+05:30"
+                        Modifyuserid="admin" OrganizationCode="CROMA" UnitOfMeasure="UNIT">
+                        <PrimaryInformation Description="" ItemType=""
+                            ShortDescription="Home Delivery Service"
+                            UnitHeight="0.00" UnitLength="0.00"
+                            UnitWeight="0.00" UnitWidth="0.00" />
+                        <ClassificationCodes CommodityCode="" />
+                    </ItemDetails>
+                </OrderLine>
+            </OrderLines>
+            <Shipments />
+            <Customer CustomerID="c6835c7fd5be27b29549dd9863e584f8"
+                CustomerType="02" Status="10">
+                <Extn ContactPersonName="Manish Kumar Dewangan"
+                    DoNotDisturb="N" Gender="MALE" />
+                <CustomerContactList>
+                    <CustomerContact Company=""
+                        CustomerContactID="c6835c7fd5be27b29549dd9863e584f8"
+                        DayPhone="" EmailID="manish.dewangan@croma.com"
+                        EveningPhone="" FirstName="Manish"
+                        LastName="Kumar Dewangan"
+                        MobilePhone="9686544044" Title="">
+                        <CustomerAdditionalAddressList>
+                            <CustomerAdditionalAddress AddressType=""
+                                Createprogid="Ph2CreateOrderInt"
+                                Createts="2022-12-20T07:00:27+05:30"
+                                Createuserid="Ph2CreateOrderInt"
+                                CustomerAdditionalAddressID="c6835c7fd5be27b29549dd9863e584f8"
+                                CustomerAdditionalAddressKey="202212200700271461572612"
+                                CustomerContactKey="202212200700261461572610"
+                                CustomerKey="202212200700261461572594"
+                                IsInherited="N" Lockid="7"
+                                Modifyprogid="Ph2CreateOrderInt"
+                                Modifyts="2023-06-02T02:34:53+05:30"
+                                Modifyuserid="Ph2CreateOrderInt"
+                                PersonInfoKey="202306020234537382140512">
+                                <PersonInfo AlternateEmailID=""
+                                    Beeper="" City="BENGALURU"
+                                    Country="" State="KARNATAKA-29">
+                                    <Extn
+                                        IRLAddressLine1="HNO 415, APOORVA MEADOWS APT, KOGILU-SAMPIGAHALLI RD, AGARHARA LYT"
+                                        IRLAddressLine2="Agrahara Badavane, Bengaluru"
+                                        IRLAddressLine4="BENGALURU" />
+                                </PersonInfo>
+                            </CustomerAdditionalAddress>
+                        </CustomerAdditionalAddressList>
+                    </CustomerContact>
+                </CustomerContactList>
+            </Customer>
+        </Order>
+    </CurrentState>
+    <StateChanges>
+        <RefundStatuses>
+            <RefundStatus AutoRefundKey="202309260525168989687433"
+                PrimeLineNo="1" RefundStatus="PENDING" Statusts="2023-09-26T05:25:16+05:30" />
+        </RefundStatuses>
+    </StateChanges>
+</Event>
