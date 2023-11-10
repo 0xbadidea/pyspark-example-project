@@ -1141,37 +1141,30 @@ schema_line_tax = StructType(
 schema_line_taxes = ArrayType(
     StructType([StructField("LineTax", schema_line_tax, True)])
 )
-schema_notes = StructType(
+
+schema_note_user = StructType(
     [
-        ArrayType(
-            StructField(
-                "Note",
-                StructType(
-                    [
-                        StructField(
-                            "User",
-                            StructType(
-                                [
-                                    StructField("_Username", StringType(), True),
-                                    StructField("_VALUE", StringType(), True),
-                                ]
-                            ),
-                            True,
-                        ),
-                        StructField("_NoteText", StringType(), True),
-                        StructField("_Priority", StringType(), True),
-                        StructField("_ReasonCode", StringType(), True),
-                        StructField("_VisibleToAll", StringType(), True),
-                    ]
-                ),
-                True,
-            )
-        ),
-        StructField("_NumberOfNotes", StringType(), True),
+        StructField("_Username", StringType(), True),
+        StructField("_VALUE", StringType(), True),
     ]
 )
 
+schema_note = StructType(
+    [
+        StructField("User", schema_note_user, True),
+        StructField("_NoteText", StringType(), True),
+        StructField("_Priority", StringType(), True),
+        StructField("_ReasonCode", StringType(), True),
+        StructField("_VisibleToAll", StringType(), True),
+    ]
+)
 
+schema_notes = StructType(
+    [
+        StructField("Note", ArrayType(schema_note), True),
+        StructField("_NumberOfNotes", StringType(), True),
+    ]
+)
 schema_order_line_tran_quantity = StructType(
     [
         StructField("_OrderedQty", DoubleType(), True),
