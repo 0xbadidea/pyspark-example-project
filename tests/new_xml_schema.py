@@ -1859,8 +1859,6 @@ schema_order_line = StructType(
         StructField("_MaintainRatio", StringType(), True),
         StructField("_MaxLineStatus", StringType(), True),
         StructField("_MaxLineStatusDesc", StringType(), True),
-        StructField("_MaxLineStatus", DoubleType(), True),
-        StructField("_MaxLineStatusDesc", StringType(), True),
         StructField("_MinLineStatus", DoubleType(), True),
         StructField("_MinLineStatusDesc", StringType(), True),
         StructField("_Modifyprogid", StringType(), True),
