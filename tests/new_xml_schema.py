@@ -2438,6 +2438,7 @@ schema_sc_refund_statuses = ArrayType(
 
 schema_state_changes = StructType(
     [
+        StructField("StatusChanges", schema_sc_status_changes, True),
         StructField("PaymentMethods", schema_sc_payment_methods, True),
         StructField("RefundStatuses", schema_sc_refund_statuses, True),
     ]
