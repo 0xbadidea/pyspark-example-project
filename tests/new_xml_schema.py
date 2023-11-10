@@ -1683,7 +1683,7 @@ schema_markdown_detail = StructType(
 )
 
 schema_order_line_extn_markdownlist = ArrayType(
-    StructType(StructField("MarkDownDetail", schema_markdown_detail, True))
+    StructType([StructField("MarkDownDetail", schema_markdown_detail, True)])
 )
 
 schema_order_line_extn = StructType(
