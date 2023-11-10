@@ -2039,8 +2039,12 @@ schema_return_order_for_exchange = StructType(
     ]
 )
 
-schema_order_return_orders_for_exchange = StructType(
-    [ArrayType(StructField("ReturnOrderForExchange", schema_return_order_for_exchange))]
+schema_order_return_orders_for_exchange = ArrayType(
+    [
+        StructType(
+            StructField("ReturnOrderForExchange", schema_return_order_for_exchange)
+        )
+    ]
 )
 
 schema_exchange_order_extn = StructType(
