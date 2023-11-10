@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Event>
+<Event xmlns="http://www.sterlingcommerce.com/documentation">
     <EventDetails EntitySubType="SALES_ORDER" EntityType="ORDER"
         EntityVersion="1" EventData="Order" EventSource="SterlingOMS"
         EventSubType="CREATE" EventTarget="ALL"

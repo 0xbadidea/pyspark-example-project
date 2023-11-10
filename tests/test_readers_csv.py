@@ -10,7 +10,11 @@ from pyspark.sql.types import (
 
 # TODO: Write Proper Unit Testing/ Integration Testing Code.
 from dependencies.spark import start_spark
+
 from connectors.readers.csv import CSVReader
+
+# from connectors.readers.json import JsonReader
+
 
 # export PYTHONPATH="/workspaces/pyspark-example-project:$PYTHONPATH"
 
@@ -46,16 +50,26 @@ schema = StructType(
     ]
 )
 
+# "tests/test_data/top_spotify_songs/universal_top_spotify_songs.csv"
+
 df_valid, df_invalid = CSVReader(
     spark,
     "tests/test_data/top_spotify_songs/universal_top_spotify_songs.csv",
     options={"header": True},
     schema=schema,
 ).read_csv()
-print(df_valid.count())
-print(df_invalid.count())
+print("Valid Count = ", df_valid.count())
+print("Invalid Count = ", df_invalid.count())
 
-df_valid.show(10, truncate=False, vertical=True)
+# df_valid.show(10, truncate=False, vertical=True)
 df_invalid.show(10, truncate=False, vertical=True)
 
-print(df_valid.schema)
+# print(df_valid.schema)
+
+
+# df_valid, df_invalid = JsonReader(
+#     spark,
+#     "tests/test_data/json/merged.json",
+# ).read_json()
+# print(df_valid.count())
+# print(df_invalid.count())
