@@ -1,0 +1,597 @@
+{
+  "created_at": "Fri Apr 17 02:20:50 +0000 2020",
+  "id": 1250972456858329000,
+  "id_str": "1250972456858329088",
+  "text": "RT @That_Radish_tho: Dear @YoWalleyB , we love you, we hope you are staying safe &amp; well. I'm sure u only want to send out positive notes in…",
+  "display_text_range": [
+    0,
+    101
+  ],
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 4361639481,
+    "id_str": "4361639481",
+    "name": "Caballero Andante",
+    "screen_name": "KballeroandanT",
+    "location": null,
+    "url": null,
+    "description": "Llegué tarde a todo",
+    "translator_type": "none",
+    "protected": false,
+    "verified": false,
+    "followers_count": 9,
+    "friends_count": 96,
+    "listed_count": 0,
+    "favourites_count": 2690,
+    "statuses_count": 1163,
+    "created_at": "Thu Dec 03 13:31:24 +0000 2015",
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "profile_background_color": "C0DEED",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/672409034507616256/fNYolZWB_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/672409034507616256/fNYolZWB_normal.jpg",
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "quote_count": 0,
+  "reply_count": 0,
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "entities": {
+    "hashtags": [],
+    "urls": [],
+    "user_mentions": [
+      {
+        "screen_name": "That_Radish_tho",
+        "name": "Allison says RENEW AWAE",
+        "id": 1199521571510997000,
+        "id_str": "1199521571510996992",
+        "indices": [
+          3,
+          19
+        ]
+      },
+      {
+        "screen_name": "YoWalleyB",
+        "name": "Moira Walley-Beckett",
+        "id": 1831789201,
+        "id_str": "1831789201",
+        "indices": [
+          26,
+          36
+        ]
+      }
+    ],
+    "symbols": []
+  },
+  "favorited": false,
+  "retweeted": false,
+  "filter_level": "low",
+  "lang": "en",
+  "timestamp_ms": "1587090050316",
+  "retweeted_status": {
+    "created_at": "Thu Apr 16 16:14:54 +0000 2020",
+    "id": 1250819971443069000,
+    "id_str": "1250819971443068928",
+    "text": "Dear @YoWalleyB , we love you, we hope you are staying safe &amp; well. I'm sure u only want to send out positive notes… https://t.co/A62tbVMU4O",
+    "display_text_range": [
+      0,
+      140
+    ],
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "truncated": true,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 1199521571510997000,
+      "id_str": "1199521571510996992",
+      "name": "Allison says RENEW AWAE",
+      "screen_name": "That_Radish_tho",
+      "location": null,
+      "url": null,
+      "description": "I have follow up questions... so... #renewannewithane",
+      "translator_type": "none",
+      "protected": false,
+      "verified": false,
+      "followers_count": 1169,
+      "friends_count": 694,
+      "listed_count": 2,
+      "favourites_count": 31242,
+      "statuses_count": 29320,
+      "created_at": "Wed Nov 27 02:53:31 +0000 2019",
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": "",
+      "profile_background_image_url_https": "",
+      "profile_background_tile": false,
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1241820722231566336/FaZRU5qD_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1241820722231566336/FaZRU5qD_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1199521571510996992/1584039957",
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "extended_tweet": {
+      "full_text": "Dear @YoWalleyB , we love you, we hope you are staying safe &amp; well. I'm sure u only want to send out positive notes in these times, but we learned from our girl... the best practice is to ask... then we can have facts &amp; recover..\n\nIs there still no chance of #renewannewithane ? https://t.co/4HXagmMLc2",
+      "display_text_range": [
+        0,
+        286
+      ],
+      "entities": {
+        "hashtags": [
+          {
+            "text": "renewannewithane",
+            "indices": [
+              267,
+              284
+            ]
+          }
+        ],
+        "urls": [],
+        "user_mentions": [
+          {
+            "screen_name": "YoWalleyB",
+            "name": "Moira Walley-Beckett",
+            "id": 1831789201,
+            "id_str": "1831789201",
+            "indices": [
+              5,
+              15
+            ]
+          }
+        ],
+        "symbols": [],
+        "media": [
+          {
+            "id": 1250819419795669000,
+            "id_str": "1250819419795668992",
+            "indices": [
+              287,
+              310
+            ],
+            "media_url": "http://pbs.twimg.com/media/EVvNopsUwAAVAhm.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/EVvNopsUwAAVAhm.jpg",
+            "url": "https://t.co/4HXagmMLc2",
+            "display_url": "pic.twitter.com/4HXagmMLc2",
+            "expanded_url": "https://twitter.com/That_Radish_tho/status/1250819971443068928/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 1200,
+                "h": 957,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 1200,
+                "h": 957,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 542,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1250819419795669000,
+            "id_str": "1250819419795668992",
+            "indices": [
+              287,
+              310
+            ],
+            "media_url": "http://pbs.twimg.com/media/EVvNopsUwAAVAhm.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/EVvNopsUwAAVAhm.jpg",
+            "url": "https://t.co/4HXagmMLc2",
+            "display_url": "pic.twitter.com/4HXagmMLc2",
+            "expanded_url": "https://twitter.com/That_Radish_tho/status/1250819971443068928/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 1200,
+                "h": 957,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 1200,
+                "h": 957,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 542,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "quote_count": 6,
+    "reply_count": 2,
+    "retweet_count": 36,
+    "favorite_count": 124,
+    "entities": {
+      "hashtags": [],
+      "urls": [
+        {
+          "url": "https://t.co/A62tbVMU4O",
+          "expanded_url": "https://twitter.com/i/web/status/1250819971443068928",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            121,
+            144
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "YoWalleyB",
+          "name": "Moira Walley-Beckett",
+          "id": 1831789201,
+          "id_str": "1831789201",
+          "indices": [
+            5,
+            15
+          ]
+        }
+      ],
+      "symbols": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "low",
+    "lang": "en"
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1250957775137468400,
+        "id_str": "1250957775137468417",
+        "indices": [
+          111,
+          134
+        ],
+        "additional_media_info": {
+          "monetizable": false
+        },
+        "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1250957775137468417/pu/img/2rfOnZVRPCrYmAT_.jpg",
+        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1250957775137468417/pu/img/2rfOnZVRPCrYmAT_.jpg",
+        "url": "https://t.co/me7YVDwxTJ",
+        "display_url": "pic.twitter.com/me7YVDwxTJ",
+        "expanded_url": "https://twitter.com/ArianaGrande/status/1250957874429218821/video/1",
+        "type": "video",
+        "video_info": {
+          "aspect_ratio": [
+            76,
+            135
+          ],
+          "duration_millis": 129467,
+          "variants": [
+            {
+              "bitrate": 2176000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/1250957775137468417/pu/vid/608x1080/fEbAwKEwxfidsp5h.mp4?tag=10"
+            },
+            {
+              "bitrate": 632000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/1250957775137468417/pu/vid/320x568/4z7IQPeLz0ylH9ja.mp4?tag=10"
+            },
+            {
+              "bitrate": 832000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/1250957775137468417/pu/vid/360x638/htjL4_txPihS8U2_.mp4?tag=10"
+            },
+            {
+              "content_type": "application/x-mpegURL",
+              "url": "https://video.twimg.com/ext_tw_video/1250957775137468417/pu/pl/K9iTuDW4MS4v6V2V.m3u8?tag=10"
+            }
+          ]
+        },
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 383,
+            "h": 680,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 608,
+            "h": 1080,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 608,
+            "h": 1080,
+            "resize": "fit"
+          }
+        },
+        "source_status_id": 1250957874429218800,
+        "source_status_id_str": "1250957874429218821",
+        "source_user_id": 34507480,
+        "source_user_id_str": "34507480"
+      }
+    ]
+  },
+  "possibly_sensitive": false,
+  "quoted_status_id": 1249928974991601700,
+  "quoted_status_id_str": "1249928974991601665",
+  "quoted_status": {
+    "created_at": "Tue Apr 14 05:14:24 +0000 2020",
+    "id": 1249928974991601700,
+    "id_str": "1249928974991601665",
+    "text": "i do not believe in love \n https://t.co/gv584NDImK",
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 1149901595808809000,
+      "id_str": "1149901595808808960",
+      "name": "ً",
+      "screen_name": "heontier",
+      "location": null,
+      "url": null,
+      "description": "s/h",
+      "translator_type": "none",
+      "protected": false,
+      "verified": false,
+      "followers_count": 117,
+      "friends_count": 99,
+      "listed_count": 0,
+      "favourites_count": 2849,
+      "statuses_count": 4929,
+      "created_at": "Sat Jul 13 04:41:19 +0000 2019",
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": "",
+      "profile_background_image_url_https": "",
+      "profile_background_tile": false,
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1250826245350273024/4ViHeTO9_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1250826245350273024/4ViHeTO9_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1149901595808808960/1585276326",
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "quote_count": 257,
+    "reply_count": 25,
+    "retweet_count": 781,
+    "favorite_count": 2598,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [
+        {
+          "id": 1249122266555617300,
+          "id_str": "1249122266555617281",
+          "indices": [
+            27,
+            50
+          ],
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1249122266555617281/pu/img/DHfbV2SNoPdUWkTR.jpg",
+          "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1249122266555617281/pu/img/DHfbV2SNoPdUWkTR.jpg",
+          "url": "https://t.co/gv584NDImK",
+          "display_url": "pic.twitter.com/gv584NDImK",
+          "expanded_url": "https://twitter.com/findurmeme/status/1249122309597728769/video/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 675,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 383,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1280,
+              "h": 720,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 1249122309597728800,
+          "source_status_id_str": "1249122309597728769",
+          "source_user_id": 1137821387811221500,
+          "source_user_id_str": "1137821387811221505"
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1249122266555617300,
+          "id_str": "1249122266555617281",
+          "indices": [
+            27,
+            50
+          ],
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1249122266555617281/pu/img/DHfbV2SNoPdUWkTR.jpg",
+          "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1249122266555617281/pu/img/DHfbV2SNoPdUWkTR.jpg",
+          "url": "https://t.co/gv584NDImK",
+          "display_url": "pic.twitter.com/gv584NDImK",
+          "expanded_url": "https://twitter.com/findurmeme/status/1249122309597728769/video/1",
+          "type": "video",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 12638,
+            "variants": [
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/1249122266555617281/pu/vid/1280x720/oQg_9Phutw-0xpF_.mp4?tag=10"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/1249122266555617281/pu/vid/480x270/yzrA3jcqkxx8N-BG.mp4?tag=10"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/ext_tw_video/1249122266555617281/pu/vid/640x360/lkg6Q_Y7wmZKTDr4.mp4?tag=10"
+              },
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/ext_tw_video/1249122266555617281/pu/pl/MrkJQo8usnQW1TRk.m3u8?tag=10"
+              }
+            ]
+          },
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 675,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 383,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1280,
+              "h": 720,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 1249122309597728800,
+          "source_status_id_str": "1249122309597728769",
+          "source_user_id": 1137821387811221500,
+          "source_user_id_str": "1137821387811221505"
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "low",
+    "lang": "en"
+  },
+  "quoted_status_permalink": {
+    "url": "https://t.co/VxJTMLXzLT",
+    "expanded": "https://twitter.com/heontier/status/1249928974991601665",
+    "display": "twitter.com/heontier/statu…"
+  },
+  "extended_tweet": {
+    "full_text": "pen and started writing \n\n\"Hey love\nI know I just got you back and I'm so grateful for that but i have to leave for a while. I cant really explain it but ones thing for sure: I cant stay here. I'm either constantly hurting or constantly numb and that's not fair on you. I dont",
+    "display_text_range": [
+      0,
+      276
+    ],
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": []
+    }
+  }
+}
